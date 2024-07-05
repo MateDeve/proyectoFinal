@@ -1,0 +1,347 @@
+.login-page {
+    font-family: Arial, sans-serif;
+    background-color: #00000065;
+}
+.login-page .login-container {
+    color: #d3d3d3;
+    width: 300px;
+    margin: 0 auto;
+    background: #161a1dbb;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+.login-page .login-container h2 {
+    text-align: center;
+}
+.login-page .login-container form {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.login-page .form-group {
+    margin-bottom: 20px;
+}
+.login-page .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.login-page .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+.login-page .form-group button {
+    background: #e5383b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.login-page .form-group button:hover {
+    background: #ba181b;
+}
+
+.index-page{
+    background: #00000065;
+    color: #d3d3d3;
+}
+
+.usuarios-page{
+    background: #00000065;
+    color: #d3d3d3;
+}
+
+.clientes-page{
+    background: #00000065;
+    color: #d3d3d3;
+}
+
+.productos-page{
+    background: #00000065;
+    color: #d3d3d3;
+}
+
+.navbar{
+    background-color: #161a1d !important;
+}
+
+.navbar .container a{
+    color: #fff;
+}
+
+.navbar .collapse ul li a{
+    color: #fff !important;
+    margin-top: 3px;
+}
+
+.navbar .collapse ul li a:hover{
+    color: #d3d3d365 !important;
+    margin-top: 3px;
+}
+
+.navbar .collapse ul li a .btn-salir{
+    margin-left: 30px;
+    margin-top: 3px;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+    background-color: #161a1d;
+    margin-top: 0px;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #161a1d
+}
+
+.dropdown-menu .dropdown-item input{
+    background-color: #161a1d;
+    color: #ffffff;
+    border: none;
+}
+
+.dropdown-menu .dropdown-item{
+    background-color: #161a1d;
+}
+
+.dropdown-menu .dropdown-item input:hover{
+    color: #d3d3d365;
+}
+
+.main-content .container{
+    background-color: #161a1d;
+    border-radius: 10px;
+    padding: 15px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container .btn{
+    background: #e5383b!important;
+    border: none;
+}
+
+.container .btn:hover {
+    background: #ba181b !important;
+    border: none;
+}
+
+.main-content .container h2{
+    text-align: center;
+}
+
+.main-content .container input{
+    background-color: #d3d3d3;
+}
+
+.index-page .container .form-group .sugerencias{
+    background-color: #d3d3d3;
+    color: #000; 
+    border-radius: 5px;
+    padding-left: 0;
+    position: absolute;
+    z-index: 100;
+}
+
+.index-page .container .form-group .sugerencias li{
+    width: 500px;
+}
+
+.index-page .container .form-group .sugerencias li:hover{
+    background-color: #e5383b;
+}
+
+.index-page .container .row .sugerencias{
+    background-color: #d3d3d3;
+    color: #000; 
+    border-radius: 5px;
+    padding-left: 0;
+    position: absolute;
+    z-index: 100;
+}
+
+.index-page .container .row .sugerencias li{
+    width: 300px;
+}
+
+.index-page .container .row .sugerencias li:hover{
+    background-color: #e5383b;
+}
+
+.index-page .container .form-group .total{
+        border: none;
+        background: none;
+        color: #fff;
+}
+
+.index-page .container .form-group .valor-unitario{
+    border: none;
+    background: none;
+    color: #fff;
+}
+
+.container .btn-salir{
+    background: #e5383b!important;
+    border: none;
+}
+
+.container .btn-salir:hover {
+    background: #ba181b !important;
+    border: none;
+}
+
+.opciones {
+    background-color: #00000065;
+}
+
+.opciones .div-opciones .container{
+    max-width: 1800px;
+    max-height: 500px;
+    padding-left: 120px;
+    width: 100%;
+}
+
+.opciones .container .btn-opciones{
+    max-width: 700px;
+    margin: 5px 5px;
+    height: 100px;
+    width: 22%;
+    font-size: 30px;
+    background: #e5383b !important;
+    border: 3px solid #000;
+    border-radius: 30px;
+    margin-bottom: none !important;
+}
+
+.opciones .btn:hover {
+    background: #ba181b !important;
+    
+}
+
+.opciones h2{
+   text-align: center;
+   margin-top: 100px;
+   margin-bottom: 80px;
+}
+
+
+footer {
+    text-align: right;
+
+}
+
+footer .container{
+    background-color: #b1a7a600 !important;
+}
+
+body footer .salir {
+    background: #000000 !important;
+    margin-top: 20px;
+    /*margin-right: 390px;*/
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+}
+
+body footer .salir:hover {
+    background: #ba181b !important;
+    
+}.index-page .container .form-group .total{
+    border: none;
+    background: none;
+    color: #fff;
+}
+.opciones footer .btn {
+    /*margin-right: 220px;*/
+    border-radius: 15px;
+    margin-top: 1px;
+}
+
+@media (max-width: 768px) {
+    body footer .salir{
+        margin-right: 230px;
+    }
+}
+
+@media (min-width: 992px){
+    .index-page .container .form-group #sugerencias {
+        max-width: 960px !important;
+    }
+}
+
+.container .row .userId{
+    display: none;
+}
+
+.container .btns-consultar{
+    display: none;
+}
+
+.container .row .clienteId{
+    display: none;
+}
+
+.container .row .productoId{
+    display: none;
+}
+
+.carrito-page{
+    background: #00000065;
+    color: #d3d3d3;
+}
+
+.container .table{
+    color: #fff;
+    text-align: center;
+}
+
+.venta-total{
+    border: none;
+    color: #fff;
+}
+
+.main-content .container .venta-total{
+    background: none;
+    text-align: center;
+}
+
+.main-content .container .venta-total:active{
+    border: none !important;
+}
+
+.main-content .container h5 .id-carrito{
+    background: none;
+    text-align: right;
+    color: #fff;
+    border: none;
+}
+
+.navbar .container .logo{
+    height: 50px;
+    width: 50px;
+}
+
+table {
+    border-collapse: collapse; /* Combina los bordes de las celdas */
+}
+table, th, td {
+    border: none; /* Elimina los bordes de la tabla y las celdas */
+}
+
+.mensaje-busqueda{
+    display: none;
+}
+
+.modal-lg-custom{
+    max-width: 1000px;
+}
+
+.modal-content{
+    background: #161a1d;
+}
+
